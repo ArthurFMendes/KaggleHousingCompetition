@@ -28,7 +28,7 @@ pd.set_option('display.max_row', 1000)
 # Set iPython's max column width to 500
 pd.set_option('display.max_columns', 500)
 
-file = open('housing_train.csv')
+file = open('KaggleHousingCompetition/housing_train.csv')
 housing = pd.read_csv(file)
 
 
